@@ -1,0 +1,67 @@
+// Bank Account Project 
+
+import java.util.*;
+//creating Account class 
+
+class Account
+{
+	String Acc_Holder,Acc_type;
+	int Acc_number,Acc_balance;
+	Account(){} //block called
+
+	//creating Account block
+
+	   Account(String acc_holder,String acc_type,int acc_balance,int acc_number){
+	   Acc_Holder=acc_holder;
+	   Acc_type=acc_type;
+	   Acc_balance=acc_balance;
+	   Acc_number=acc_number;
+	   
+	   } //Account Block End 
+}//class Account end
+//creating Create_account Class
+
+class create_account extends Account{
+//block created create_account
+create_account(String acc_holder,String acc_type,int acc_balance,int acc_number);
+       Acc_Holder=acc_holder;
+	   Acc_type=acc_type;
+	   Acc_balance=acc_balance;
+	   Acc_number=acc_number;
+} //end create_account block
+
+//block called create_account
+create_account(){
+
+}
+//incsert method to insert the values 
+void insert (){
+
+
+
+}
+
+//Display method to display the values 
+void Display_details(){
+
+
+}
+
+// Deposite method 
+void Deposite(){
+
+
+}
+//Withdrow method 
+void Withdraw(){
+
+
+}
+
+class HDFC 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
